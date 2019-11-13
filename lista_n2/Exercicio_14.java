@@ -1,6 +1,7 @@
+package lista_n2;
+
 import java.util.Scanner;
 
-import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
 public class Exercicio_14 {
  /*
 Faça um programa que utilizando a estrutura Do-While, leia para um número
@@ -12,9 +13,9 @@ indeterminado de pessoas: leia a idade de cada pessoa, sendo que a leitura da id
  */
   public static void main (String[]args){
     Scanner entrada = new Scanner (System.in);
-    int  , idade_maior , idade_menor , numero_de_pessoas ;
+    int idade , idade_maior = 0, idade_menor = 0, numero_de_pessoas = 0;
     String fim;
-    double media , somador ;
+    double media , somador = 0;
     do { 
         System.out.println();
         System.out.println("IMFORME A IDADE DO INDIVIDO "+ numero_de_pessoas + 1);
